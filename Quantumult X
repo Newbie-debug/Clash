@@ -148,10 +148,10 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 
 
 [policy]
-static=📲 Telegram, HK_4X, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🎬 YouTube, proxy, HK_2X, HK_4X, JP, US, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=📺 Netflix, HK, HK_4X, US, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix_Letter.png
-static=🌏 国外网站, proxy, HK, HK_4X, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Global.png
+static=📲 Telegram, 🇭🇰️ HK_4X, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🎬 YouTube, proxy, 🇭🇰 HK_2X, 🇭🇰 HK_4X, 🇯🇵JP, 🇺🇲 US, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+static=📺 Netflix, 🇭🇰 HK, 🇭🇰 HK_4X, 🇺🇲 US, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix_Letter.png
+static=🌏 国外网站, proxy, 🇭🇰 HK, 🇭🇰 HK_4X, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Global.png
 static=💻 国外影视, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
 static=📽 国内视频, direct, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
 static=🍎 苹果服务, direct, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
