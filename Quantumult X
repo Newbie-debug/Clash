@@ -148,16 +148,16 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 
 
 [policy]
-static=📲 Telegram, SG4X, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🎬 YouTube, proxy, direct, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
-static=📺 Netflix, HK, SG4X, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix_Letter.png
-static=🌏 国外网站, proxy, HK, SG4X, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Global.png
+static=📲 Telegram, HK_4X, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🎬 YouTube, proxy, HK_2X, HK_4X, JP, US, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/YouTube.png
+static=📺 Netflix, HK, HK_4X, US, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Netflix_Letter.png
+static=🌏 国外网站, proxy, HK, HK_4X, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Global.png
 static=💻 国外影视, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/ForeignMedia.png
 static=📽 国内视频, direct, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
 static=🍎 苹果服务, direct, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=🕹 终极清单,direct, proxy, img-url= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
-available= 🇭🇰️ HK4X, resource-tag-regex=MAYING, server-tag-regex= 4X, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
-url-latency-benchmark= 🇭🇰️ HK2X, resource-tag-regex=MAYING, server-tag-regex= 2X, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+available= 🇭🇰️ HK_4X, resource-tag-regex=MAYING, server-tag-regex= 4X, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
+round-robin= 🇭🇰️ HK_2X, resource-tag-regex=MAYING, server-tag-regex= 2X, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 static= 🇭🇰️ HK, server-tag-regex= 香港|🇭🇰️|HK, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png
 static= 🇸🇬️ SG, server-tag-regex= 新加坡|🇸🇬️️|SG, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png
 static= 🇯🇵️ JP, server-tag-regex= 日本|🇯🇵️|JP, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Japan.png
@@ -187,7 +187,7 @@ static= 🇺🇲️ US, server-tag-regex= 美国|🇺🇲️|US, img-url=https:/
 #远程服务器订阅模块，可直接订阅SSR，SS链接，以及Quantumult X格式的vmess/trojan/https订阅
 #其它格式可用 opt-parser 参数开启解析器导入使用
 #img-url参数用于指定图标，格式要求同样为 108*108 的 png 图片，可远程，可本地
-https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server.snippet#rename=[香港], tag=MAYING, update-interval=86400, opt-parser=true,  img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/MAYING.png, enabled=true
+https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server.snippet#rename=[MAYING], tag=MAYING, update-interval=86400, opt-parser=true,  img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/MAYING.png, enabled=true
 
 
 #支持本地/iCloud的节点文件/片段，位于Quantumult X/Profiles路径下
