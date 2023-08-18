@@ -62,7 +62,6 @@ fallback_udp_policy=direct
 ;dns_reject_domain_behavior = loopback
 
 
-
 [dns]
 ; 禁用系统 DNS（no-system） 以及 ipv6
 ;no-system
@@ -95,14 +94,11 @@ server=119.28.28.28
 ; 1.0.29 版本后支持 alias 映射类型
 ;alias=/example.com/another-example.com
 
-
 ;如指定了 DoQ 服务，则 DoH 以及其它 dns解析均失效
 ;doq-server = quic://dns.adguard.com
 ;doq-server = quic://dns1.example.com, quic://dns2.example.com
 ;doq-server = quic://dns.adguard.com, excluded_ssids=SSID1
 ;doq-server = quic://dns.adguard.com, included_ssids=SSID2
-
-
 
 ;指定域名解析dns, 下面为示范，按需启用, 同样支持 excluded_ssids/included_ssids 参数
 ;server=/*.taobao.com/223.5.5.5, excluded_ssids=My-Wifi, Your-Wifi
@@ -135,6 +131,12 @@ event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/
 # 3⃣️ 网络切换/变化时 触发的脚本类型
 ;event-network sample-taks.js
 
+#服务器远程订阅
+[server_remote]
+#远程服务器订阅模块，可直接订阅SSR，SS链接，以及Quantumult X格式的vmess/trojan/https订阅
+#其它格式可用 opt-parser 参数开启解析器导入使用
+#img-url参数用于指定图标，格式要求同样为 108*108 的 png 图片，可远程，可本地
+URL, tag=MAYING, update-interval=86400, opt-parser=true,  img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/MAYING.png, enabled=true
 
 #以下为策略组[policy]部分
 # static 策略组中，你需要手动选择想要的节点/策略组。
@@ -181,13 +183,6 @@ static= 🇺🇲️ US, server-tag-regex= 美国|🇺🇲️|US, img-url=https:/
 # "tag" 跟 "enabled" 为可选参数，分别表示 “标签”及“开启状态”, true 为开启，false 关闭.
 # update-interval 为更新时间参数，单位 秒, 默认更新时间为 24*60*60=86400 秒，也就是24小时.
 # opt-parser=true/false 用于控制是否对本订阅 开启资源解析器，不写或者 false 表示不启用解析器;
-
-#服务器远程订阅
-[server_remote]
-#远程服务器订阅模块，可直接订阅SSR，SS链接，以及Quantumult X格式的vmess/trojan/https订阅
-#其它格式可用 opt-parser 参数开启解析器导入使用
-#img-url参数用于指定图标，格式要求同样为 108*108 的 png 图片，可远程，可本地
-URL, tag=MAYING, update-interval=86400, opt-parser=true,  img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/MAYING.png, enabled=true
 
 
 #支持本地/iCloud的节点文件/片段，位于Quantumult X/Profiles路径下
